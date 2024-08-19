@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table >
+        <tr>
+            <td colspan="4"><i>invoice #1234</i></td>
+            <td><i>Some Data</i></td>
+        </tr> 
+        <tr>
+            <td colspan="3" rowspan="3">Buyer's  Name: <br> First and Last Name</td>
+            <td rowspan="3">Address: <br> Somewhere <br> in Brandon.</td>
+            <td>Zip Code</td>
+        </tr>
+        <tr><td>Phone Number</td></tr>
+        <tr><td>Email</td></tr>
+        <tr>
+            <td colspan="2"><strong>item Name</strong></td>
+            <td><strong>Cost</strong></td>
+            <td><strong>Quantity</strong></td>
+            <td><strong>Total Cost</strong></td>
+        
+            
+        </tr>
+        <tr>
+            <td>Item1</td>
+            <td colspan="2">10</td>
+            <td>10</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Item2</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td colspan="3"><strong>Subtotal</strong></td>
+            <td>15</td>
+            <td><strong>125</strong></td>
+        </tr>
+    </table>
+</body>
+</html>
